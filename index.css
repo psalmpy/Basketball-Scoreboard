@@ -1,23 +1,84 @@
+@font-face {
+    font-family: 'CursedTimerUlil-Aznm';
+    src: url('CursedTimerUlil-Aznm.ttf');
+}
+
+@font-face {
+    font-family: 'verdana';
+    src: url('verdana.ttf');
+}
+
 body {
-    margin: 0;
-    background: #1B244A;
+margin: 0;
+background: #1B244A;
 }
 
 h3 {
-    color: whitesmoke;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: whitesmoke;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container {
-    display: flex;
-    justify-content: space-around;
+display: flex;
+justify-content: space-around;
 }
 
 .scoreEl {
-    display: flex;
-    justify-content: space-around;
-    color: red;
-    font-family: 'CursedTimerUlil-Aznm';
-    text-align: center;
-    margin-bottom: 10px
+display: flex;
+justify-content: space-around;
+color: red;
+font-family: 'CursedTimerUlil-Aznm';
+text-align: center;
+margin-bottom: 10px
+}
+
+h1 {
+margin: 0px;
+padding: 5px;
+}
+
+.textH1 {
+background: black;
+font-size: 18px;
+text-align: center;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+padding: 14px 24px;
+/* or 141% */
+color: #F94F6D;
+}
+
+
+.textH {
+background: black;
+font-size: 18px;
+text-align: center;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+padding: 14px 24px;
+/* or 141% */
+color: #F94F6D;
+}
+
+.btn-btn {
+display: flex;
+justify-content: space-between;
+margin-top: 3px;
+}
+
+.add-btn {
+margin: auto;
+}
+
+.add-btn1 {
+margin: auto;
+}
+
+.btn {
+border: 1px solid #9AABD8;
+background: none;
+color: #9AABD8;
+margin-right: 3px;
 }

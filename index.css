@@ -62,6 +62,13 @@ padding: 14px 24px;
 color: #F94F6D;
 }
 
+.btn:hover,
+.btn:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+
+}
+
 .btn-btn {
 display: flex;
 justify-content: space-between;

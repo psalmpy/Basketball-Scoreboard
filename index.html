@@ -1,37 +1,56 @@
 <html>
     <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="index.css">
+        <title>Basketball Scoreboard</title>
     </head>
     <body>
+
+        <div>
+            <h1 class="header">Basketball Live scoreboard</h1>
+        </div>
+
         <div class="container">
+
             <div>
                 <h3>HOME</h3>
             </div>
             <div>
                 <h3>AWAY</h3>
             </div>
+
         </div>
-        <div class="scoreEl"> 
-            <div class="textH">
-                <h1 id="resultH">5</h1>
+
+        <div class="scoreEl">
+
+            <div class="textHome">
+                <h2 id="resultHome">0</h2>
             </div>
-            <div class="textH1">
-                <h1 id="resultG">0</h1>
-            </div>    
+            <div class="textAway">
+                <h2 id="resultAway">0</h2>
+            </div>
+
         </div>
+
         <div class="btn-btn">
+
            <div class="add-btn">
-                <button onclick="add1()" class="btn">+1</button>
-                <button onclick="add2()" class="btn">+2</button>
-                <button onclick="add3()" class="btn">+3</button>
+                <button onclick="addOne()" class="btn">+1</button>
+                <button onclick="addTwo()" class="btn">+2</button>
+                <button onclick="addThree()" class="btn">+3</button>
                 
             </div>
             <div class="add-btn1">
-                <button onclick="addG1()" class="btn">+1</button>
-                <button onclick="addG2()" class="btn">+2</button>
-                <button onclick="addG3()" class="btn">+3</button>
+                <button onclick="addOneAway()" class="btn">+1</button>
+                <button onclick="addTwoAway()" class="btn">+2</button>
+                <button onclick="addThreeAway()" class="btn">+3</button>
             </div>
+
         </div>
+
+        </div>
+        <button class="reset-btn" onclick="reset()" >Reset</button>
+        <div>
+
         <script src="index.js"></script>
     </body>
 </html>

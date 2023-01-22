@@ -13,6 +13,15 @@ margin: 0;
 background: #1B244A;
 }
 
+.header {
+    color: bisque;
+    font-size: 42px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-decoration: underline;
+}
+
 h3 {
 color: whitesmoke;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -37,7 +46,7 @@ margin: 0px;
 padding: 5px;
 }
 
-.textH1 {
+.textAway, .textHome  {
 background: black;
 font-size: 18px;
 text-align: center;
@@ -49,24 +58,10 @@ padding: 14px 24px;
 color: #F94F6D;
 }
 
-
-.textH {
-background: black;
-font-size: 18px;
-text-align: center;
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-padding: 14px 24px;
-/* or 141% */
-color: #F94F6D;
-}
-
-.btn:hover,
-.btn:focus {
+.btn:hover {
   box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
   transform: translateY(-0.25em);
-
+    
 }
 
 .btn-btn {
@@ -88,4 +83,23 @@ border: 1px solid #9AABD8;
 background: none;
 color: #9AABD8;
 margin-right: 3px;
+}
+
+.reset-btn {
+    width: 80px;
+    height: 40px;
+    align-items: center;
+    border: 1px solid rgba(183, 12, 12, 0.278);
+    color: white;
+    background: none;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reset-btn:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),
+     0 6px 20px 0 rgba(0,0,0,0.80);
 }

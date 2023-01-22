@@ -1,53 +1,56 @@
-let addEl = 0
-let addEl2 = 0
-let addEl3 = 0
+let homeScoreId = document.getElementById("resultHome")
+
+let awayScoreId = document.getElementById("resultAway")
+
+let addScoreHome = 0
+let addScoreAway = 0
 
 
 
-function add1() {
-    addEl += 1
-    console.log(addEl)
-    scores1 = document.getElementById("resultH")
-    scores1.textContent = addEl
-}
-
-
-function add2() {
+function addOne() {
+    addScoreHome += 1
     
-    addEl2 += 2
-    console.log(addEl2)
-    scores1 = document.getElementById("resultH")
-    scores1.textContent = addEl2
-}
-
-function add3() {
-    addEl3 += 3
-    console.log(addEl3)
-    scores1 = document.getElementById("resultH")
-    scores1.textContent = addEl3
-}
-
-function addG1() {
-    addEl += 1
-    console.log(addEl)
-    scores2 = document.getElementById("resultG")
-    scores2.textContent = addEl
+    homeScoreId.textContent = addScoreHome
 }
 
 
-function addG2() {
+function addTwo() {
     
-    addEl2 += 2
-    console.log(addEl2)
-    scores2 = document.getElementById("resultG")
-    scores2.textContent = addEl2
+    addScoreHome += 2
+    homeScoreId.textContent = addScoreHome
+}
+
+function addThree() {
+    
+    addScoreHome += 3
+    homeScoreId.textContent = addScoreHome
+}
+
+function addOneAway() {
+    
+    addScoreAway += 1
+    awayScoreId.textContent = addScoreAway
+}
+
+
+function addTwoAway() {
+    
+    addScoreAway += 2
+    awayScoreId.textContent = addScoreAway
     
 }
 
-function addG3() {
-    addEl3 += 3
-    console.log(addEl3)
-    scores2 = document.getElementById("resultG")
-    scores2.textContent = addEl3
+function addThreeAway() {
 
+    addScoreAway += 3
+    awayScoreId.textContent = addScoreAway
+
+}
+
+function reset() {
+
+    let addScoreHome = 0
+    let addScoreAway = 0
+    homeScoreId.textContent = addScoreHome
+    awayScoreId.textContent = addScoreAway
 }
